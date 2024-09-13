@@ -53,8 +53,9 @@ Request Body (JSON):
 ## Access Protected Endpoints
 ### Once you are logged in, you can access protected endpoints using the JWT access token you received when you logged in
 URL: /api/assignment/
+
 Headers (for authenticated requests):
-Authorization: Bearer .your_access_token.
+Authorization: Bearer <your_access_token>
 
 
 ## Refreshing the Access Token
