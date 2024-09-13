@@ -1,0 +1,6 @@
+{'user': 'admin', 'start_time': '2024-09-13 12:37:01', 'end_time': '2024-09-13 12:37:01', 'total_duration': '0:00:00.005995', 'request_method': 'GET', 'request_url': 'http://127.0.0.1:8000/api/assignment/', 'response_status': 200}
+{'user': 'admin', 'start_time': '2024-09-13 12:37:27', 'end_time': '2024-09-13 12:37:27', 'total_duration': '0:00:00.000525', 'request_method': 'GET', 'request_url': 'http://127.0.0.1:8000/api/assignment/', 'response_status': 200}
+{'user': 'AnonymousUser', 'start_time': '2024-09-13 13:08:20', 'end_time': '2024-09-13 13:08:20', 'total_duration': '0:00:00.004556', 'request_method': 'GET', 'request_url': 'http://127.0.0.1:8000/api/', 'response_status': 200}
+{'user': 'AnonymousUser', 'start_time': '2024-09-13 13:09:08', 'end_time': '2024-09-13 13:09:08', 'total_duration': '0:00:00', 'request_method': 'GET', 'request_url': 'http://127.0.0.1:8000/api/', 'response_status': 200}
+{'user': 'admin', 'start_time': '2024-09-13 13:09:59', 'end_time': '2024-09-13 13:09:59', 'total_duration': '0:00:00.003931', 'request_method': 'GET', 'request_url': 'http://127.0.0.1:8000/api/', 'response_status': 200}
+{'user': 'admin', 'start_time': '2024-09-13 13:38:23', 'end_time': '2024-09-13 13:38:23', 'total_duration': '0:00:00.004118', 'request_method': 'GET', 'request_url': 'http://127.0.0.1:8000/api/', 'response_status': 200}
