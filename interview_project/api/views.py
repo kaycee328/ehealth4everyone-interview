@@ -3,6 +3,8 @@ from rest_framework.decorators import APIView
 from django.core.cache import cache
 from datetime import datetime
 from rest_framework.permissions import IsAuthenticated
+import time
+import random
 
 
 class AssignmentView(APIView):
@@ -11,14 +13,16 @@ class AssignmentView(APIView):
     def get(self, request):
         start_time = datetime.now()
 
-        # Cache key, here we can bust based on user role, etc.
+        # Cache key, here we can bust based on user id
         cache_key = f"user_{request.user.id}_data"
 
         # Check if response is cached
         data = cache.get(cache_key)
+
         if not data:
-            # Simulate expensive computation
-            data = {"message": "This is a test response!"}
+            # Simulate time consuming computation
+            time.sleep(random.randint(1, 5))
+            data = {"message": "A response!"}
             cache.set(cache_key, data, timeout=60 * 5)  # Cache for 5 minutes
 
         end_time = datetime.now()
