@@ -30,8 +30,9 @@ pip install -r requirements.txt
 python manage.py migrate
 
 ### Start development server
-python manage.py runserver
-
+   ```bash
+      python manage.py runserver
+   ```
 ## API Endpoints
 ### User Registration (Sign Up)
 URL: /api/register/
