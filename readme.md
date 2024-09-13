@@ -35,6 +35,7 @@ python manage.py runserver
 ## API Endpoints
 ### User Registration (Sign Up)
 URL: /api/register/
+
 {
   "username": "your_username",
   "password": "your_password"
@@ -43,7 +44,9 @@ URL: /api/register/
 ## User Login (Sign In)
 ### To log in, make a POST request to the following endpoint:
 URL: /api/login/
+
 Request Body (JSON):
+
 {
   "username": "your_username",
   "password": "your_password"
@@ -55,12 +58,14 @@ Request Body (JSON):
 URL: /api/assignment/
 
 Headers (for authenticated requests):
+
 Authorization: Bearer <your_access_token>
 
 
 ## Refreshing the Access Token
 ### When your access token expires, you can get a new one using the refresh token.
 URL: /api/token/refresh/
+
 Request Body (JSON):
 {
   "refresh": "your_refresh_token"
