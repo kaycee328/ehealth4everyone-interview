@@ -14,3 +14,4 @@
 {'user': 'admin', 'start_time': '2024-09-13 13:55:13', 'end_time': '2024-09-13 13:55:13', 'total_duration': '0:00:00.001002', 'request_method': 'GET', 'request_url': 'http://127.0.0.1:8000/api/', 'response_status': 200}
 {'user': 'admin', 'start_time': '2024-09-13 13:55:41', 'end_time': '2024-09-13 13:55:41', 'total_duration': '0:00:00.004665', 'request_method': 'GET', 'request_url': 'http://127.0.0.1:8000/api/', 'response_status': 200}
 {'user': 'admin', 'start_time': '2024-09-13 13:55:42', 'end_time': '2024-09-13 13:55:42', 'total_duration': '0:00:00', 'request_method': 'GET', 'request_url': 'http://127.0.0.1:8000/api/', 'response_status': 200}
+{'user': 'admin', 'start_time': '2024-09-13 14:00:22', 'end_time': '2024-09-13 14:00:24', 'total_duration': '0:00:02.008052', 'request_method': 'GET', 'request_url': 'http://127.0.0.1:8000/api/', 'response_status': 200}
